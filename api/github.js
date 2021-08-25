@@ -1,4 +1,4 @@
-export const base = 'https://api.github.com'
+export const base = 'https://github.xsky.com/api/v3'
 
 export const getContent = (filePath, githubData) => {
   return fetch(`${base}/repos/${githubData.owner}/${githubData.name}/contents/${filePath}`, {

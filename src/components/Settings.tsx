@@ -43,7 +43,7 @@ export default class Settings extends React.Component<Props> {
     const { githubData, settingSwitch } = this.props
     if ((!prevPorps.githubData && githubData) || (prevPorps.settingSwitch !== settingSwitch)) {
       this.setState({
-        githubRepo: `https://github.com/${githubData.owner}/${githubData.name}`,
+        githubRepo: `https://github.xsky.com/${githubData.owner}/${githubData.name}`,
         githubToken: githubData.githubToken,
       })
     }
